@@ -21,6 +21,7 @@ def logo():
     print(f"      | |_) | |_| | |\  | |___| . \ ___) | || |_) | |___|  _ <")
     print(f"      |____/ \___/|_| \_|_____|_|\_\____/___|____/|_____|_| \_\")   
     print(f"                            By RDP EXPLOIT")
+    print(f"                                    {__version__} {__build__}")
     print(f"")
 
 def version():
