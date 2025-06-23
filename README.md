@@ -32,7 +32,7 @@
 * `pkg update`
 * `pkg install git`
 * `pkg install python`
-* `git clone https://github.com/mishakorzik/py-ddoser`
+* `git clone https://github.com/Rdp54/Ddos-Nxer `
 <details id="missing-code-coverage">
   <summary>Need help with installation</summary>
 
