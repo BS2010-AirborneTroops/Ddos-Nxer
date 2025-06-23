@@ -20,7 +20,7 @@ def logo():
     print(r"   / __ \/ / / /_____/ __  / __  / __ \/ ___/ _ \/ ___/")
     print(f"  / /_/ / /_/ /_____/ /_/ / /_/ / /_/ (__  )  __/ /")
     print(r" / .___/\__, /      \__,_/\__,_/\____/____/\___/_/")
-    print(f"/_/    /____/             by mishakorzik")
+    print(f"/_/    /____/             by RDP EXPLOIT")
     print(f"                            {__version__} {__build__}")
     print(f"")
 
