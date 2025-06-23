@@ -29,7 +29,7 @@
 ## Start Program
 #### Enter a command to start py-ddoser.
 
-* `cd maDdos-Nxer`
+* `cd Ddos-Nxer`
 * `python3 ddos.py`
 
 ------
