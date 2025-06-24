@@ -14,7 +14,7 @@
 * `pkg update`
 * `pkg install git`
 * `pkg install python`
-* `git clone https://github.com/Rdp54/Ddos-Nxer `
+* `git clone BS2010-AirborneTroops/Ddos-Nxer`
 <details id="missing-code-coverage">
   <summary>Need help with installation</summary>
 
@@ -44,10 +44,10 @@
 
 ```bash
 Emails:
- rdpexploit@gmail.com
+ siberbonek2010@gmail.com
 
 Developers:
- Rdp
+ nxr
 ```
 
 ## Bug?
@@ -57,7 +57,7 @@ If the tool fails, follow these steps:
    in detail
 
 2. Contact me through the following 
-   email: rdpexploit@gmail.com
+   email: siberbonek2010@gmail.com
 
 3. Submit the screenshot and explain 
    your problem with that error
