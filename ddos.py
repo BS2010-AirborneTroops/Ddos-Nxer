@@ -15,8 +15,7 @@ def logo():
     print()
     print(f"                    By RDP EXPLOIT")
     print(f"                            {__version__} {__build__}")
-    print()
-
+    print()    
 logo()
 
 def version():
