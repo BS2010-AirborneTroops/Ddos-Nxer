@@ -1,4 +1,18 @@
 #!/usr/bin/python3
+import threading, urllib3, random, json, time, sys, os
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+__version__ = "1.1.1"
+__build__ = "stable"
+
+
+pool = urllib3.PoolManager(headers={"User-Agent": "Mozilla/5.0"})
+working = []
+iphosts = [
+    'https://ipinfo.io/ip',
+    'https://ifconfig.io/ip']
+
 import os
 
 __version__ = "1.0"
