@@ -1,28 +1,24 @@
 #!/usr/bin/python3
-import threading, urllib3, random, json, time, sys, os
+import os
 
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-
-__version__ = "1.1.1"
-__build__ = "stable"
-
-
-pool = urllib3.PoolManager(headers={"User-Agent": "Mozilla/5.0"})
-working = []
-iphosts = [
-    'https://ipinfo.io/ip',
-    'https://ifconfig.io/ip']
+__version__ = "1.0"
+__build__ = "2025-06-24"
 
 def logo():
     os.system("clear")
-    print(f"                           __    __ ")
-    print(f"    ____  __  __      ____/ /___/ /___  ________  _____")
-    print(r"   / __ \/ / / /_____/ __  / __  / __ \/ ___/ _ \/ ___/")
-    print(f"  / /_/ / /_/ /_____/ /_/ / /_/ / /_/ (__  )  __/ /")
-    print(r" / .___/\__, /      \__,_/\__,_/\____/____/\___/_/")
-    print(f"/_/    /____/             by mishakorzik")
+    print(r"")
+    print(r"  ____   ___  _   _ _____ _  ______ ___ ____  _____ ____")
+    print(r" | __ ) / _ \| \ | | ____| |/ / ___|_ _| __ )| ____|  _ \ ")
+    print(r" |  _ \| | | |  \| |  _| |   /\___ \| ||  _ \|  _| | |_) |")
+    print(r" | |_) | |_| | |\  | |___| . \ ___) | || |_) | |___|  _ < ")
+    print(r" |____/ \___/|_| \_|_____|_|\_\____/___|____/|_____|_| \_\ ")
+    print()
+    print(f"                    By RDP EXPLOIT")
     print(f"                            {__version__} {__build__}")
-    print(f"")
+    print()
+
+logo()
+
 
 def version():
     print(f"\033[01;32m[\033[0m+\033[01;32m]\033[0m Checking for updates")
