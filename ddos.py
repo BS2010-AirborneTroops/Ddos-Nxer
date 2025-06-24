@@ -13,11 +13,6 @@ iphosts = [
     'https://ipinfo.io/ip',
     'https://ifconfig.io/ip']
 
-import os
-
-__version__ = "1.0"
-__build__ = "2025-06-24"
-
 def logo():
     os.system("clear")
     print(r"")
