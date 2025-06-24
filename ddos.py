@@ -13,6 +13,11 @@ iphosts = [
     'https://ipinfo.io/ip',
     'https://ifconfig.io/ip']
 
+import os
+
+__version__ = "1.0"
+__build__ = "2025-06-24"
+
 def logo():
     os.system("clear")
     print(r"")
@@ -25,6 +30,8 @@ def logo():
     print(f"                    By RDP EXPLOIT")
     print(f"                            {__version__} {__build__}")
     print()
+
+logo()
 
 def version():
     print(f"\033[01;32m[\033[0m+\033[01;32m]\033[0m Checking for updates")
