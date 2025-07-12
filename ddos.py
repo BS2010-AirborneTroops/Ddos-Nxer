@@ -22,7 +22,7 @@ def logo():
     print(r" | |_) | |_| | |\  | |___| . \ ___) | || |_) | |___|  _ < ")
     print(r" |____/ \___/|_| \_|_____|_|\_\____/___|____/|_____|_| \_\ ")
     print()
-    print(f"                    By RDP EXPLOIT")
+    print(f"                    By CYBERGANG OF PERSEBAYA")
     print(f"                            {__version__} {__build__}")
     print()
 
