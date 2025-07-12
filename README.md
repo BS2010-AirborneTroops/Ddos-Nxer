@@ -14,7 +14,7 @@
 * `pkg update`
 * `pkg install git`
 * `pkg install python`
-* `git clone BS2010-AirborneTroops/Ddos-Nxer`
+* `git clone https://github.com/BS2010-AirborneTroops/Ddos-Nxer`
 <details id="missing-code-coverage">
   <summary>Need help with installation</summary>
 
